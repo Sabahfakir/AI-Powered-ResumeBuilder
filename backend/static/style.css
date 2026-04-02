@@ -1,0 +1,55 @@
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Navbar */
+.gradient-navbar {
+    background: linear-gradient(90deg, #4e73df, #1cc88a);
+}
+
+/* Glass Effect */
+.glass-card {
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    color: white;
+}
+
+/* Form Styling */
+.form-control {
+    border-radius: 10px;
+}
+
+.btn-gradient {
+    background: linear-gradient(90deg, #ff6a00, #ee0979);
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn-gradient:hover {
+    opacity: 0.9;
+}
+
+/* Resume Preview */
+.resume-preview {
+    background: white;
+    border-radius: 15px;
+    position: sticky;
+    top: 20px;
+}
+
+.resume-preview h2 {
+    font-weight: 700;
+}
+
+/* Smooth Animation */
+.glass-card, .resume-preview {
+    transition: all 0.3s ease;
+}
+
+.glass-card:hover {
+    transform: translateY(-5px);
+}
